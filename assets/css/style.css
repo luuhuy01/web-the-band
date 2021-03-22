@@ -1,0 +1,77 @@
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+
+#nav {
+    
+}
+
+#nav > li {
+    position: relative;
+    display: inline;
+}
+#nav > li > a{ 
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    text-transform: uppercase;
+}
+
+#nav li:hover >a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    background-color: white;
+}
+
+#nav .subnav li{
+    display: block;
+}
+
+#nav .subnav li a{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    padding: 8px 24px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+#slider {
+    min-height: 500px;
+    background-color: #333;
+    
+}
+
+#content {
+
+}
+
+#footer {
+
+}
